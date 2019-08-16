@@ -122,7 +122,7 @@ class Ingredients extends Component {
     // first, build chosenIngred String from ingredients.selected
     let chosenIngred = "";
     let firstTime = true;
-    this.state.ingredients.map(i => {
+    this.state.ingredients.forEach(i => {
       if (i.selected === true) {
         if (firstTime === true) {
           firstTime = false;
@@ -149,7 +149,7 @@ class Ingredients extends Component {
     // first, build allIngred String from ingredients
     let allIngred = "";
     let firstTime = true;
-    this.state.ingredients.map(i => {
+    this.state.ingredients.forEach(i => {
       if (firstTime === true) {
         firstTime = false;
         allIngred = i.name;
