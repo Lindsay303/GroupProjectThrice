@@ -201,7 +201,7 @@ class Ingredients extends Component {
             <div className="page-header">
               <h1>&emsp;Add An Ingredient</h1>
               <form>
-               <InputGroup
+              <InputGroup
                   addIngr={this.state.addIngr}
                   handleInputChange={this.handleInputChange}
                   handleFormSubmit={this.handleFormSubmit}
@@ -255,7 +255,7 @@ class Ingredients extends Component {
                     <button className="btn btn-color2" type="button" onClick={this.searchWithChosen}>Search Checked</button>
                   </div>
                   <input type="text" name="othIngr" value={this.state.othIngr} onChange={this.handleOthIngrChange} className="form-control" placeholder="item1, item2, etc." />
-                  
+
                   <div className="input-group-append">
                     <button className="btn btn-color1" onClick={this.searchWithOther} type="button" id="button-addon2">Search</button>
                   </div>

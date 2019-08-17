@@ -54,9 +54,9 @@ class LoginForm extends Component {
           <Row className="zindex1">
             <Col className="zindex1" size="md-3"></Col>
             <Col className="zindex1" size="md-6">
-              <Card className="zindex1" title="Login to YumBot">
+              <Card className="zindex1" title="Login to Recipes on the Run">
                 <form className="zindex1" style={{marginTop: 10}}>
-									<h1>Login to YumBot!</h1>
+									<h1>Login to Recipes on the Run!</h1>
                   <label htmlFor="username">Username: </label>
                   <Input
                     type="text"

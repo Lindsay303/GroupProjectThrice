@@ -26,7 +26,7 @@ const Nav = (props) => {
   return (
     <nav className="navbar navbar-expand-lg">
       <a className="navbar-brand" href="/"><img src={image} height="80px" width="80px" alt=""/></a>
-      <div className="app-name">YumBot</div>
+      <div className="app-name">Recipes on the Run</div>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon">   
         <i className="fa fa-navicon"></i>
